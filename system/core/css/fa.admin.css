@@ -1,0 +1,69 @@
+/*
+Palette URL: http://paletton.com/#uid=1000u0kbRt14+E48dwffUpTkImm	
+.color-primary-1 { color: #FFD7D7 }
+.color-primary-2 { color: #FFBEBE }
+.color-primary-0 { color: #E79292 }
+.color-primary-3 { color: #CE6868 }
+.color-primary-4 { color: #B23F3F }
+*/
+
+.fa_view
+{
+	display: block; overflow: hidden; margin: 5px; padding: 5px;
+	font-family: Tahoma;
+	font-size: 14px;
+	line-height: 14px;
+	background-color: #B23F3F;
+}
+.fa_view .content
+{
+	display: block; overflow: hidden; padding: 5px; background-color: #FFD7D7;
+}
+
+.fa_view .content .trace
+{
+	display: block; overflow: hidden;
+	padding: 5px;
+
+	color: #550000;
+	background-color: #FFD7D7;
+	word-break: break-all;
+}
+.fa_view .content .trace i
+{
+	display: inline-block;
+	margin: 2px 2px;
+	padding: 3px 6px;
+	font-style: normal;
+	text-decoration: none;
+	background-color: #E79292;
+}
+.fa_view .content .trace i.argument
+{
+	font-size: 10px;
+	font-weight: bold;
+	margin: 2px 0px;
+	padding: 3px 0px;
+	background-color: #FFD7D7;
+}
+
+.fa_view .content .line
+{
+	display: block;
+	width: 100%;
+	height: 1px;
+	
+	margin-bottom: 5px; padding-bottom: 5px; border-bottom: dotted 3px #B23F3F;
+}
+
+.fa_view .content pre
+{
+	display: block; overflow: hidden;
+	margin: 5px 0px; padding: 5px;
+	font-family: Verdana;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 16px;
+	word-break: break-all;
+	color: #550000; background-color: #FFFFFF;
+}

@@ -1,0 +1,31 @@
+#mouse_skip
+{
+	position: absolute;
+	display: none;
+	margin: 0px;
+	padding: 24px;
+	font-size: 18px;
+	font-weight: bold;
+	color: #666;
+	background-color: #FFF;
+	border-radius: 24px;
+	border: solid 1px #CCC;
+	box-shadow: 0px 0px 12px #888888;
+}
+
+#mouse_cursor
+{
+	position: absolute;
+	display: block;
+	top: 0px;
+	left: 0px;
+	width: 36px;
+	height: 36px;
+	border-radius: 36px;
+	background-color: #FFF;
+	background-position: center center;
+	background-image: url('/heat/theme/default/image/arrow.png');
+	background-repeat: no-repeat;
+	border: solid 1px #CCC;
+	box-shadow: 0px 0px 12px #FFF;
+}

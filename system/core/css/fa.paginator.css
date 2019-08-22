@@ -1,0 +1,71 @@
+.fa_paginator {
+	position: relative;
+	display: block;
+	overflow: hidden; 
+	font-size: 12px;
+	line-height: 12px;
+	font-weight: 600;
+	padding: 25px 0;
+	text-align: center;
+}
+.fa_paginator a
+{
+	text-decoration: none;
+}
+
+/* PAGE */
+.fa_paginator ._page {
+	/* padding: 3px 0; */
+}
+.fa_paginator ._page a {
+	/* margin: 0 3px;
+	padding: 3px 6px; */
+	color: #000;
+}
+.fa_paginator ._page a:hover {
+	/* margin: 0 9px;
+	padding: 3px 6px;
+	background-color: #E3E3E3; */
+}
+.fa_paginator ._page._current {
+	margin: 0 3px;
+	padding: 3px 6px;
+	color: #FFFFFF;
+	background-color: #666666;
+	border-radius: 3px;
+	font-weight: bold;
+}
+
+/* common */
+.fa_paginator ._page._common a {
+	margin: 0 3px;
+	padding: 3px 6px;
+	color: #000000;
+	font-weight: bold;
+	/* background-color: #E3E3E3;
+	border-radius: 3px;
+	border: solid 1px; */
+}
+
+.fa_paginator ._page._current a, .fa_paginator ._page._common a
+{
+	text-decoration: none;
+}
+
+.fa_paginator ._page._current a, .fa_paginator ._page._common a:hover
+{
+	color: #666666;
+	background-color: #dddddd;
+	border-radius: 3px;
+}
+
+.fa_paginator ._left
+{
+	/* float: left; */
+	margin-right: 25px;
+}
+.fa_paginator ._right
+{
+	/* float: right; */
+	margin-left: 25px;
+}

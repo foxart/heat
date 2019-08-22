@@ -1,0 +1,155 @@
+.chart_pie1
+{
+	color: #135d13;
+}
+.chart_pie2
+{
+	color: #478900;
+}
+.chart_pie3
+{
+	color: #7eb234;
+}
+.chart_pie4
+{
+	color: #d0e17e;
+}
+.chart_pie5
+{
+	color: #edf4b7;
+}
+
+.pie_chart
+{
+	position: relative;
+	/* display: block; */
+	font-family: Calibri;
+	float: left;
+	/* width: 50%; */
+	border: none;
+	z-index: 1;
+}
+
+.pie_chart_content
+{
+	overflow: hidden;
+	margin: 5px 10px 5px 0;
+	border-radius: 6px;
+	border-color: #dddddd;
+	border-style: solid;
+	border-width: 1px;
+	background-color: #f9f9f9;
+	background-color: #ffffff;
+	z-index: 1;
+}
+
+.pie_chart_canvas
+{
+	position: relative;
+	float: right;
+	padding: 0px;
+	margin: 10px;
+	border: dotted 1px gray;
+	border: none;
+}
+
+.pie_chart_header
+{
+	display: block;
+	font-family: "Calibri";
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 20px;
+	padding: 6px 0 0 12px;
+	position: relative;
+	color: #666666;
+	color: #333;
+}
+	
+.pie_chart_legend
+{
+	position: relative;
+	float: left;
+	margin: 10px 0 0 15px;
+	font-family: Calibri;
+	font-size: 16px;
+	line-height: 22px;
+	border: dashed 1px gray;
+	border: none;
+}
+
+.pie_chart_point
+{
+	display: block;
+	float: left;
+	width: 14px;
+	height: 14px;
+	margin: 3px 5px 3px 0;
+	line-height: 20px;
+	border-radius: 12px;
+}
+
+
+
+
+
+.fa_tooltip
+{
+	position: absolute;
+	overflow: hidden;
+	display: table;
+	top: 0px;
+	margin: 0px;
+	color: #fff;
+	z-index: 9999;
+	cursor: default;
+}
+
+.fa_tooltip_text
+{
+	position: relative;
+	display: table-cell;
+	padding: 8px;
+	font-family: Calibri;
+	font-size: 14px;
+	white-space: nowrap;
+	background-color: #A3A3A3;
+	border-top-left-radius: 10px; /* future proofing */
+	border-bottom-left-radius: 10px; /* future proofing */
+	z-index: 9999;
+	cursor: default;
+}
+
+.fa_tooltip_value
+{
+	position: relative;
+	display: table-cell;
+	padding: 8px;
+	font-family: Calibri;
+	font-size: 14px;
+	font-weight: bold;
+	height: 8px;
+	background-color: #585858;
+	border-top-right-radius: 10px; /* future proofing */
+	border-bottom-right-radius: 10px; /* future proofing */
+	z-index: 9999;
+	cursor: default;
+}
+
+
+.fa_tooltip_value span
+{
+	font-size: 0.6em;
+	vertical-align: super;
+}
+
+
+.log
+{
+	position: relative;
+	float: left;
+	padding: 10px;
+	margin: 10px;
+	min-width: 100px;
+	border: dotted 1px red;
+}

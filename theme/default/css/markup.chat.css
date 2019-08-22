@@ -1,0 +1,118 @@
+.chat
+{
+	overflow: hidden;
+}
+
+.chat .client, .chat .server
+{
+	margin-bottom: 5px;
+	width: 55%;
+	border: solid 1px;
+	border-radius: 5px;
+}
+
+.chat .system
+{
+	padding: 5px 0px;
+	margin-bottom: 5px;
+	width: 100%;
+	text-align: center;
+	border-radius: 5px;
+	background-color: #B23F3F;
+	color: #FFF;
+}
+
+.chat .client
+{
+	float: right;
+	border-color: #B23F3F;
+}
+
+.chat .server
+{
+	float: left;
+	border-color: #666;
+}
+
+.chat .client .number, .chat .server .number
+{
+}
+
+.chat .client .number
+{
+	float: left;
+	margin: 0px 5px 0px 0px;
+	padding: 5px;
+	color: #FFFFFF;
+	border-top-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	background-color: #B23F3F;
+}
+
+.chat .server .number
+{
+	float: right;
+	margin: 0px 0px 0px 5px;
+	padding: 5px;
+	color: #FFFFFF;
+	border-top-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	background-color: #666;
+}
+
+
+
+.chat .client .user, .chat .server .user
+{
+	padding: 5px 5px;
+	font-weight: bold;
+}
+
+.chat .client .user
+{
+	float: left;
+}
+
+.chat .server .user
+{
+	float: right;
+}
+
+
+.chat .system .number, .chat .system .user, .chat .system .date
+{
+	display: none;
+}
+
+.chat .client .date
+{
+	float: right;
+	padding: 5px 5px 0px 0px;
+}
+
+.chat .server .date
+{
+	float: left;
+	padding: 5px 0px 0px 5px;
+}
+
+.chat pre
+{
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+
+.chat .message
+{
+	overflow: hidden;
+	padding: 5px 5px;
+}
+
+
+
+
+
+
+
+

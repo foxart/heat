@@ -1,0 +1,163 @@
+h1
+{
+	font-size: 24px;
+	line-height: 24px;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+h2
+{
+	font-size: 18px;
+	line-height: 18px;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+h3
+{
+	font-size: 15px;
+	line-height: 15px;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+.left_content
+{
+	display: block;
+	padding: 0px 3px 0px 0px;
+}
+.right_content
+{
+	display: block;
+	padding: 0px 0px 0px 3px;
+}
+
+
+/* SOF h1 */
+.content .h1
+{
+	position: relative;
+	display: block;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	font-size: 24px;
+	font-weight: 300;
+	line-height: 24px;
+	color: #333;
+}
+
+.content .h1_title
+{
+	position: relative;
+	display: block;
+	padding: 3px 0px 3px 0px;
+	font-size: 14px;
+	line-height: 14px;
+	font-weight: 300;
+	color: #333;
+}
+/* EOF h1 */
+
+
+.block_left
+{
+	position: relative;
+	display: block;
+	float: left;
+	/* width: 50%; */
+}
+.block_left_content
+{
+	position: relative;
+	display: block;
+	margin: 0px 6px 0px 0px;
+}
+
+.block_right
+{
+	position: relative;
+	display: block;
+	float: right;
+	/* width: 50%; */
+}
+.block_right_content
+{
+	position: relative;
+	display: block;
+	margin: 0px 0px 0px 6px;
+}
+
+
+
+.content .text
+{
+	position: relative;
+	display: block;
+	font-size: 16px;
+	line-height: 22px;
+	font-weight: 300;
+	/* word-spacing: 2px; */
+	word-break: break-all;
+	/* white-space: pre-line; */
+}
+
+.content .incut
+{
+	position: relative;
+	display: block;
+	overflow: hidden;
+	padding: 12px;
+	background-color: #FFFFFF;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #DDDDDD;
+	border-radius: 3px;
+}
+
+.content .incut .h2
+{
+	position: relative;
+	display: block;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	font-size: 16px;
+	line-height: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #333;
+}
+
+.content .incut .text
+{
+	position: relative;
+	display: block;
+	font-size: 13px;
+	line-height: 16px;
+	font-weight: 300;
+	word-spacing: 2px;
+	color: #999999;
+}
+
+.content .incut .text q
+{
+	color: #555555;
+}
+
+
+.content .footnote
+{
+	position: relative;
+	display: none;
+	display: block;
+	padding: 12px 0px 12px 0px;
+	font-size: 12px;
+	line-height: 12px;
+	font-weight: 300;
+	color: #999;
+}
+
+.icon
+{
+	color: #B23F3F;
+}

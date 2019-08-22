@@ -1,0 +1,203 @@
+.color {
+	color: #FFD7D7;
+	color: #FFBEBE;
+	color: #E79292;
+	color: #CE6868;
+	color: #B23F3F;
+}
+
+pre
+{
+	white-space: pre-wrap;
+}
+
+html
+{
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	width: 100%;
+}
+
+body
+{
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	width: 100%;
+	/*
+	min-height: 100%;
+	*/
+
+}
+
+h1, h2, h3, p
+{
+	position: relative;
+	display: inline-block;
+	margin: 0px;
+	padding: 0px;
+}
+
+fieldset, iframe
+{
+	margin: 0px;
+	padding: 0px;
+	border: none;
+}
+
+ol, ul, li
+{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+
+#container
+{
+	height: 100%;
+	width: 100%;
+	background-color: #EEE;
+	font-family: 'Calibri';
+}
+
+#container_background
+{
+	height: 100%;
+	min-width: 1024px;
+	width: 99%;
+	margin: auto;
+	background-color: #DDD;
+}
+
+#container_content
+{
+	min-width: 800px;
+	width: 99%;
+	height: 100%;
+	margin: auto;
+	background-color: #FFF;
+}
+
+
+
+#header
+{
+	/*
+	height: 100px;
+	background-color: #FFD7D7;
+	*/
+	height: 70px;
+	background-color: #cd1720;
+	color: #FFF;
+}
+
+#header_logo
+{
+	/*
+	height: 100px;
+	background-color: #FFD7D7;
+	*/
+	width: 208px;
+	height: 39px;
+	
+	display: block;
+	text-decoration: none;
+	
+	background: url(/heat/theme/default/image/logo.png) no-repeat;
+}
+
+#header_content
+{
+	position: relative;
+	/* border-bottom: dotted 1px #000; */
+	background: url(/heat/theme/default/image/header.jpg) no-repeat;
+}
+
+#header_title
+{
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+
+
+#body
+{
+}
+#body_content
+{
+}
+
+#footer
+{
+	height: 50px;
+}
+#footer_content
+{
+	border-top: dotted 1px #000;
+}
+
+#left
+{
+	width: 300px;
+	/*
+	background-color: #CE6868;
+	*/
+}
+#left_content
+{
+	width: 299px;
+	border-right: dotted 1px;
+}
+
+#left_top
+{
+	/*
+	background-color: #FFD7D7;
+	*/
+}
+#left_top_content
+{
+	/*
+	padding: 10px;
+	*/
+}
+
+#left_bottom
+{
+	/*
+	background-color: #E79292;
+	*/
+}
+#left_bottom_content
+{
+	/*
+	padding: 10px;
+	*/
+}
+
+#right
+{
+	/*
+	background-color: #B23F3F;
+	*/
+}
+#right_content
+{
+	/*
+	padding: 10px;
+	*/
+}
+
+
+
+.content
+{
+	position: relative;
+	overflow: hidden;
+	display: block;
+	padding: 10px;
+	font-size: 14px;
+}

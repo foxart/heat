@@ -1,0 +1,131 @@
+/* SOF table */
+.table
+{
+	position: relative;
+	display: block;
+	width: 100%;
+	overflow: hidden;
+	border-spacing: 0px;
+}
+
+.table_content
+{
+	position: relative;
+	display: table;
+	margin: 0px 0px;
+	width: 100%;
+}
+
+.table .table_row
+{
+	position: relative;
+	display: table-row;
+}
+
+.table .table_header .table_cell, .table .table_body .table_cell, .table .table_footer .table_cell
+{
+	position: relative;
+	display: table-cell;
+	word-wrap: break-word;
+}
+
+.table .table_header .table_cell
+{
+	padding: 6px 6px 6px 6px;
+	font-weight: 600;
+	text-transform: uppercase;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+}
+.table .table_body .table_cell
+{
+	padding: 3px 6px 3px 6px;
+	vertical-align: middle;
+	font-weight: 300;
+}
+
+
+
+/* header */
+.table .table_header.table_row .table_cell
+{
+	background-color: #dddddd;
+	color: #666666;
+}
+.table .table_header .table_cell
+{
+	color: #666666;
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-top-color: #dddddd;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #dddddd;
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-left-color: #dddddd;
+}
+.table .table_header .table_cell:last-child
+{
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-right-color: #dddddd;
+}
+/* header */
+
+
+
+/* body */
+
+
+.table .table_body.table_row:nth-child(even)
+{
+	background-color: #ffffff;
+}
+.table .table_body.table_row:nth-child(odd)
+{
+	background-color: #f9f9f9;
+}
+.table .table_body .table_cell
+{
+	color: #666666;
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-left-color: #dddddd;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #dddddd;
+	
+}
+.table .table_body .table_cell:last-child
+{
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-right-color: #dddddd;
+}
+/* body */
+
+
+
+/* footer */
+.table .table_footer .table_cell
+{
+	color: #666666;
+	background-color: #dddddd;
+}
+/* footer */
+
+
+
+/* common */
+.table a.link
+{
+	color: #4795E2;
+	text-decoration: underline;
+}
+.table a.link:hover
+{
+	text-decoration: none;
+}
+/* common */
